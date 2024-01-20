@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="first">
+        <div class="second">
+            <h1>CALCULATOR</h1>
+            <input id="display" class="num" placeholder="0" type="text">
+            <div class="two">
+                <button onclick="ner()"  class="a">AC</button>
+                <button onclick="press('-')" class="a" >+/-</button>
+                <button onclick="press('/100')"   class="a">%</button>
+                <button onclick="press('/')"  style="background-color: orange;color: #fff;" class="a">/</button>
+            </div>
+            <div class="two">
+                <button  onclick="press(7)" class="ab">7</button>
+                <button  onclick="press(8)" class="ab">8</button>
+                <button  onclick="press(9)" class="ab">9</button>
+                <button onclick="press('*')"  style="background-color: orange;color: #fff;font-size: 30px;" class="ab">*</button>
+            </div>
+            <div class="two">
+                <button  onclick="press(4)" class="ab">4</button>
+                <button  onclick="press(5)" class="ab">5</button>
+                <button onclick="press(6)" class="ab">6</button>
+                <button onclick="press('-')" style="background-color: orange;color: #fff; font-size: 30px;" class="ab">-</button>
+            </div>
+            <div class="two">
+                <button  onclick="press(1)" class="ab">1</button>
+                <button  onclick="press(2)" class="ab">2</button>
+                <button  onclick="press(3)" class="ab">3</button>
+                <button onclick="press('+')" style="background-color: orange;color: #fff; font-size: 30px;" class="ab">+</button>
+            </div>
+            <div class="two">
+                <button  onclick="press(0)"class="abc">0</button>
+                
+                <button onclick="press('.')"  class="ab">.</button>
+                <button onclick="lick()" style="background-color: orange;color: #fff;font-size: 30px; box-shadow: 5px 5px 20px orange;" class="ab">=</button>
+            </div>
+            
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
